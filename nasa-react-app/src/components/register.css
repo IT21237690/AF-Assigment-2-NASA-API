@@ -1,0 +1,78 @@
+.registration-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .registration-card {
+    background-color: #f1e5e5;
+    padding: 40px; 
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-heading {
+    text-align: center;
+    color: black;
+  }
+  
+  .registration-form {
+    margin-top: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .registration-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .registration-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .error-msg {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Style for the link to login page */
+  .login-link {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
